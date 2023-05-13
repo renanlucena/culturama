@@ -6,3 +6,9 @@
     column-gap: 33px;
     
 }
+
+@media screen and (min-width: 720px){
+    .menu{
+        column-gap: 75px;
+    }
+}

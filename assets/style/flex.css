@@ -5,4 +5,11 @@
   flex-wrap: wrap;
   -moz-column-gap: 33px;
        column-gap: 33px;
+}
+
+@media screen and (min-width: 720px) {
+  .menu {
+    -moz-column-gap: 75px;
+         column-gap: 75px;
+  }
 }/*# sourceMappingURL=flex.css.map */
