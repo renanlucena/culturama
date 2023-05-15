@@ -106,12 +106,14 @@
 }
 .eventos__lista .eventos__item h3 {
   grid-area: nome;
+  align-self: center;
 }
 .eventos__lista .eventos__item h4 {
   grid-area: data;
 }
 .eventos__lista .eventos__item h5 {
   grid-area: local;
+  align-self: end;
 }
 .eventos__lista .eventos__item button {
   grid-area: botao;
