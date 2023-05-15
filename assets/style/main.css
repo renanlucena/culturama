@@ -146,4 +146,12 @@
   .agenda__lista {
     justify-content: end;
   }
+}
+.rodape {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rodape .rodape__logo {
+  align-self: end;
 }/*# sourceMappingURL=main.css.map */
