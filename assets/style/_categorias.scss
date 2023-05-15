@@ -4,6 +4,16 @@
     row-gap: .5rem;
 }
 
+.destaques{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .destaques__barra{
+        flex-grow:  1;
+    }
+}
+
 @media (min-width: 720px){
     .categorias__lista{
         flex-wrap: wrap;
