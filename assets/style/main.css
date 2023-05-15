@@ -79,4 +79,22 @@
          column-gap: 1.5rem;
     row-gap: 1rem;
   }
+}
+.eventos__lista {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+  row-gap: 1rem;
+  justify-content: center;
+}
+.eventos__lista .eventos__item {
+  flex-grow: 1;
+  max-width: 400px;
+}
+
+@media (min-width: 720px) {
+  .eventos__lista {
+    justify-content: end;
+  }
 }/*# sourceMappingURL=main.css.map */
